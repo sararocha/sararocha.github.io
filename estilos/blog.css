@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+.identificacao{
+    background-color: #579ff8;
+    color: #fcfcfd;
+}
+.identificacao h1{
+    font-size: 2.5em;
+}
+.identificacao h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+section h3{
+    font-size: 1.7em;
+}
+header li a{
+    color: #99a0b0;
+    font-weight: lighter;
+}
+.escuras{
+    background-color: #2b313e;
+    color: #fcfcfd;
+}
+.claras {
+    background-color: #fcfcfd;
+    color: #2b313e;
+}
+.styleprojetos li{
+    background-color: #6f768b;
+
+}
+.styleprojetos li a{
+    color: #fff;
+    font-size: 1.3em;
+}
+#Sobre img{
+    width: 200px;
+}
