@@ -1,6 +1,11 @@
 body {
     font-family: Helvetica, sans-serif;
 }
+header{
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 header li{
     display: inline-block;
     margin-left: 3em;
@@ -12,6 +17,10 @@ header li{
 .container {
     padding-left: 10%;
     padding-right: 10%;
+}
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 .identificacao{
     background-color: #579ff8;
@@ -28,6 +37,7 @@ header li{
 }
 section h3{
     font-size: 1.7em;
+    margin-bottom: 0.5em;
 }
 header li a{
     color: #99a0b0;
@@ -43,11 +53,26 @@ header li a{
 }
 .styleprojetos li{
     background-color: #6f768b;
-
+    padding: 1em;
+    margin-bottom: 2em;
 }
 .styleprojetos li a{
     color: #fff;
     font-size: 1.3em;
+}
+.styleprojetos li p{
+    color: #fff;
+    margin-top: 0.5em;
+}
+#Sobre p.bio{
+    color: #579ff0;
+    font-size: 1.5em;
+    margin: 1em;
+    font-weight: 800;
+}
+#Sobre p.text{
+    margin: 1em;
+    font-weight: lighter;
 }
 #Sobre img{
     width: 200px;
