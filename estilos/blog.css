@@ -31,9 +31,31 @@ header li{
     display: inline-block;
     margin-left: 3em;
 }
+#Contato li a{
+    display: inline-block;
+    margin: 1em; 
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+#Contato .email{
+    background-image: url("../imagens/email.png")
+}
+#Contato .face{
+    background-image: url("../imagens/facebook.png")
+}
+#Contato .twitter{
+    background-image: url("../imagens/twitter.png")
+}
+#Contato .linkedin{
+    background-image: url("../imagens/linkedin.png")
+}
+#Contato .github{
+    background-image: url("../imagens/github.png")
+}
 #Contato li{
     display: inline-block;
-    margin: 1em;
+    
 }
 .container {
     padding-left: 10%;
@@ -75,7 +97,10 @@ header li a{
 }
 .projetos-header {
     float: left;
-
+    width: 30%;
+}
+.projetos-header h3{
+    margin-top: 1em;
 }
 .styleprojetos{
     margin-left: 40%;
