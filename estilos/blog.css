@@ -143,10 +143,21 @@ header li a{
     top: 2.5em;
     right: 10%;
 }
+#projetos {
+    background-image: url(../imagens/flowers.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 #projetos img{
     width: 200px;
 }
 footer{
     padding-top: 1em;
     padding-bottom: 1em;
+}
+.imageprofile {
+    border-radius: 27px;
+    padding: 10px;
 }
